@@ -1,0 +1,3 @@
+[[constraint]]
+  name = "github.com/go-resty/resty"
+  version = "1.0.0"
