@@ -1,3 +1,4 @@
+
 # Gopkg.toml example
 #
 # Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
@@ -22,12 +23,4 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/giantswarm/microerror"
-
-[[constraint]]
-  name = "github.com/go-resty/resty"
-  version = "1.0.0"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/prometheus/client_golang"
+  name = "github.com/juju/errgo"
