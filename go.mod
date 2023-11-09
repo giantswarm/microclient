@@ -4,8 +4,8 @@ go 1.19
 
 require (
 	github.com/giantswarm/microerror v0.4.1
+	github.com/go-resty/resty/v2 v2.10.0
 	github.com/prometheus/client_golang v1.17.0
-	gopkg.in/resty.v1 v1.12.0
 )
 
 require (
