@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2024-03-15
+
 
 
 ## [0.2.0] 2020-03-20
@@ -24,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release.
 
-[Unreleased]: https://github.com/giantswarm/microclient/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/giantswarm/microclient/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/giantswarm/microclient/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/giantswarm/microclient/releases/tag/v0.1.0...0.2.0
 [0.1.0]: https://github.com/giantswarm/microclient/releases/tag/v0.1.0
