@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/giantswarm/microerror v0.4.1
 	github.com/go-resty/resty/v2 v2.15.0
-	github.com/prometheus/client_golang v1.20.2
+	github.com/prometheus/client_golang v1.20.4
 )
 
 require (
