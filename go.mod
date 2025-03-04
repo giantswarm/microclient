@@ -7,7 +7,7 @@ toolchain go1.24.0
 require (
 	github.com/giantswarm/microerror v0.4.1
 	github.com/go-resty/resty/v2 v2.16.5
-	github.com/prometheus/client_golang v1.21.0
+	github.com/prometheus/client_golang v1.21.1
 )
 
 require (
