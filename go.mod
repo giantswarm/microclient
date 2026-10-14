@@ -1,6 +1,6 @@
 module github.com/giantswarm/microclient
 
-go 1.25.0
+go 1.26.0
 
 toolchain go1.27.1
 
@@ -18,6 +18,8 @@ require (
 	github.com/prometheus/common v0.70.1 // indirect
 	github.com/prometheus/procfs v0.21.1 // indirect
 	golang.org/x/net v0.57.0 // indirect
-	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 )
+
+replace golang.org/x/net v0.57.0 => golang.org/x/net v0.61.0
