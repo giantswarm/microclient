@@ -14,6 +14,8 @@ import (
 
 const (
 	prometheusNamespace = "microclient"
+
+	labelURL = "url"
 )
 
 var (
@@ -23,7 +25,7 @@ var (
 			Name:      "request",
 			Help:      "Histogram for requests.",
 		},
-		[]string{"url"},
+		[]string{labelURL},
 	)
 
 	requestError = prometheus.NewCounterVec(
@@ -32,7 +34,7 @@ var (
 			Name:      "request_error_count",
 			Help:      "Counters for errors during requests.",
 		},
-		[]string{"url", "error_type", "error_message"},
+		[]string{labelURL, "error_type", "error_message"},
 	)
 
 	responseStatus = prometheus.NewCounterVec(
@@ -41,7 +43,7 @@ var (
 			Name:      "response_status_count",
 			Help:      "Counters for response status codes.",
 		},
-		[]string{"url", "code"},
+		[]string{labelURL, "code"},
 	)
 )
 
